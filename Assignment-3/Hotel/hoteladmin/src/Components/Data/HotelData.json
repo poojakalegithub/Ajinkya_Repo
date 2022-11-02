@@ -1,0 +1,35 @@
+ [
+    {
+      
+      "name": "Suyoj Resort",
+      "type": " Resort",
+      "price": "2000/night",
+      "size": "500sq",
+      "capacity": "300",
+      "pets": "No",
+      "breakfast": "Yes",
+      "description": "Very beautiful resort just outside of city."
+    },
+
+    {
+      "name": "Shakti Nivas",
+      "type": " Hotel",
+      "price": "1000/night",
+      "size": "200sq",
+      "capacity": "200",
+      "pets": "No",
+      "breakfast": "Yes",
+      "description": "Close to city centre"
+    },
+
+    {
+      "name": "Sai Hotel",
+      "type": " Hotel",
+      "price": "500/night",
+      "size": "100sq",
+      "capacity": "300",
+      "pets": "No",
+      "breakfast": "No",
+      "description": "Reasonably price hotel in the city."
+    }
+]
