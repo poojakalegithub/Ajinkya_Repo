@@ -1,14 +1,51 @@
 import React, { useState } from "react";
-
-const AddHotel = () => {
+import data from "./Data/HotelData.json"
+const UpadateHotels = () => {
   const [name, setName] = useState("");
   const [type, settype] = useState("");
   const [price, setprice] = useState(0);
   const [size, setsize] = useState(0);
   const [capacity, setcapacity] = useState(1);
-  const [pets, setpets] = useState(false);
-  const [breakfast, setbreakfast] = useState(false);
   const [description, setdescription] = useState("");
+  const [id, setid] = useState("");
+  const [UserData,setUserData] = useState(data);
+
+
+  function getUsers() {
+    fetch("http://localhost:8000/Hotels").then((result) => {
+      result.json().then((resp) => {
+        // console.warn(resp)
+        setUserData(resp)
+        setName(resp[0].name)
+        settype(resp[0].type)
+        setprice(resp[0].price)
+        setsize(resp[0].size)
+        setcapacity(resp[0].capacity)
+        setdescription(resp[0].description)
+        setid(resp[0].id)
+      })
+    })
+  }
+
+function UpdateData()
+{
+  let data={name,type,price,size,capacity,description}
+  console.warn(data);
+  fetch(`http://localhost:4000/Hotels/${UserData.Hotels.id}`, {
+    method: "PUT",
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body:JSON.stringify(data)
+  }).then((resp)=>{
+    console.warn("resp",resp);;
+    resp.json().then((result)=>{
+      console.warn("result",result)
+      getUsers()
+    })
+  })
+}
   return (
     <div className="container my-5">
       <div className="row">
@@ -73,36 +110,6 @@ const AddHotel = () => {
                       id="capacity"
                       placeholder="Capacity"
                     />
-                    <div className="custom-control custom-checkbox my-1">
-                      <input
-                        type="checkbox"
-                        className="custom-control-input"
-                        checked={breakfast}
-                        onChange={() => setbreakfast(!breakfast)}
-                        name="breakfast"
-                        id="breakfast"
-                      />
-                      <label
-                        htmlFor="breakfast"
-                        className="custom-control-label"
-                      >
-                        Breakfast
-                      </label>
-                    </div>
-                    <div className="custom-control custom-checkbox my-1">
-                      <input
-                        type="checkbox"
-                        className="custom-control-input"
-                        name="pets"
-                        checked={pets}
-                        onChange={() => setpets(!pets)}
-                        id="pets"
-                      />
-                      <label htmlFor="pets" className="custom-control-label">
-                        Pets
-                      </label>
-                    </div>
-
                     <label htmlFor="description">Description</label>
                     <textarea
                       className="form-control"
@@ -116,11 +123,11 @@ const AddHotel = () => {
 
                   <div className="form-group form-check"></div>
                 </form>
-                <button
+                <button onClick={()=>UpdateData(UserData.Hotels.id)}
                   className="btn btn-block btn-outline-primary"
 
                 >
-                   HOTEL
+                   UPDATE
                 </button>
               </div>
             </div>
@@ -131,4 +138,4 @@ const AddHotel = () => {
   );
 };
 
-export default AddHotel;
+export default UpadateHotels;

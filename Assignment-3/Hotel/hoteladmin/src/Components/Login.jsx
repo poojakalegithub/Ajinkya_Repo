@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const Login = () => {
 
@@ -21,10 +21,12 @@ const Login = () => {
         {
             console.log(`Email is ${email}`);
             console.log(`Password is ${password}`);
-            alert('Login success')
+            alert('Login success');
+            
+            
         }
         else {
-            alert('Please enter password')
+            alert('Password length should greater than 5')
         }    
         
         
@@ -43,7 +45,7 @@ const Login = () => {
   return (
     
     <div>
-      <h1 className='d-flex justify-content-center' >Login Form</h1>
+      <h1 className='d-flex justify-content-center' >Login </h1>
         <div className='d-flex justify-content-center align-items-center'>
             <hr />
           
@@ -61,12 +63,13 @@ const Login = () => {
                 </div>
 
                 <div className='form-group form-check'>
-                    <label htmlFor="">Not Register ?</label>
+                    <label htmlFor="">Not Register ? <Link class="nav-link" to="/Registration"> SignUp </Link></label>
                 </div>
 
-                <button onClick={validateUser} type='submit' className='btn btn-primary'>Login</button>
-                <span>  </span>
-                <button onClick={eraseUser} type='submit' className='btn btn-danger'>Clear</button>
+                <Link class="nav-link" to="/ListHotels">
+                <button onClick={validateUser} type='submit' className='btn btn-primary'>
+                Login</button></Link>
+                {/* <button onClick={eraseUser} type='submit' className='btn btn-danger'>Clear</button> */}
             </form>
         </div>
     </div>

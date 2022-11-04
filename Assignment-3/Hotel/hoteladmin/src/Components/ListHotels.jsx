@@ -2,7 +2,7 @@ import React, {useEffect,useState} from 'react'
 import data from "./Data/HotelData.json"
 
 
-function Table() {
+function ListHotels() {
     const [UserData,setUserData] = useState(data);
          
     return (
@@ -16,21 +16,17 @@ function Table() {
                     <th>Size</th>  
                     <th>Price</th>  
                     <th>Capacity</th>
-                    <th>Pets</th>
-                    <th>Breakfast</th>
                     <th>Description</th>   
                 </tr>
             </thead>
             <tbody>
-                {UserData.map((userdata) => (
+                {UserData.Hotels.map((userdata) => (
                    <tr>
                     <td>{userdata.name}</td>
                     <td>{userdata.type}</td>
                     <td>{userdata.price}</td>
                     <td>{userdata.size}</td>
                     <td>{userdata.capacity}</td>
-                    <td>{userdata.pets}</td>
-                    <td>{userdata.breakfast}</td>
                     <td>{userdata.description}</td>
                    </tr> 
                 ))}
@@ -41,4 +37,4 @@ function Table() {
   )
 }
 
-export default  Table
+export default  ListHotels

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 export const Navbar = () => {
 
@@ -14,13 +15,13 @@ export const Navbar = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a
+        <Link to ='/'
           class="navbar-brand"
           href="#"
           title="Free Bootstrap 4 Admin Template"
         >
           Villa Hotels
-        </a>
+        </Link>
       </div>
       <button
         class="navbar-toggler"
@@ -33,24 +34,29 @@ export const Navbar = () => {
       <div class="navbar-collapse collapse" id="collapsingNavbar">
         <ul class="navbar-nav">
           <li class="nav-item active">
-          <a class="nav-link" href="/AddHotel">
-              Home <span class="sr-only">Home</span>
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/AddHotel">
+          <Link class="nav-link" to="/ListHotels">
               Hotels<span class="sr-only">Hotels</span>
-            </a>
+            </Link>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Booking <span class="sr-only">Booking</span>
-            </a>
+            <Link class="nav-link" to="/AddHotel">
+              Add Hotels<span class="sr-only">Add Hotels</span>
+            </Link>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">
+            <Link class="nav-link" to="/SelectHotel">
+              Update Hotels<span class="sr-only">Update Hotels</span>
+            </Link>
+          </li>
+          <li class="nav-item active">
+            <Link class="nav-link" to="/Bookings">
+              Bookings <span class="sr-only">Bookings</span>
+            </Link>
+          </li>
+          <li class="nav-item active">
+            <Link class="nav-link" to="/UserList">
               Users <span class="sr-only">Users</span>
-            </a>
+            </Link>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
@@ -60,14 +66,14 @@ export const Navbar = () => {
             </a>
           </li>
           <li class="nav-item">
-            <a
+            <Link
               class="nav-link"
-              href="./Login.jsx"
+              to="/Login"
               data-target="#myModal"
               data-toggle="modal"
             >
               Log out
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

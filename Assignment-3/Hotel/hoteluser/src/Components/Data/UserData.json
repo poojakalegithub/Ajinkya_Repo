@@ -1,0 +1,37 @@
+{
+    "Hotels": [
+      {
+        "id": 1,
+        "name": "Suyoj Resort",
+        "type": " Resort",
+        "price": "2000/night",
+        "area": "500sq",
+        "capacity": "300",
+        "pets": "No",
+        "breakfast": "Yes",
+        "description": "Very beautiful resort just outside of city."
+      },
+      {
+        "name": "Ajinkya Villas",
+        "type": "Villas",
+        "price": "3300",
+        "area": "200",
+        "capacity": "100",
+        "description": "close to the nature.",
+        "id": 2
+      },
+      {
+        "name": "bhakti hotel",
+        "type": "Hotel",
+        "price": "3000",
+        "area": "125",
+        "capacity": "50",
+        "description": "very good.",
+        "id": 3
+      }
+    ],
+
+    "Table":[
+
+    ]
+}

@@ -9,6 +9,24 @@ const Registration = () => {
     const [name,setName] = useState('')
     const [confirmpassword,setConfirmPassword] = useState('')
 
+    function SaveData() {
+        let data = { name, email, password };
+        console.warn(data);
+        fetch("http://localhost:8000/LoginDetails", {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }).then((resp) => {
+          console.warn("resp", resp);
+          resp.json().then((result) => {
+            console.warn("result", result);
+          });
+        });
+      }
+
 
     function eraseUser(e){
        e.target.value = ''
@@ -21,7 +39,9 @@ const Registration = () => {
             console.log(`Name is ${name}`);
             console.log(`Email is ${email}`);
             console.log(`Password is ${password}`);
-            alert('Login success')
+            alert('Registration success')
+            
+        
         }
         else {
             alert('please check your password')
@@ -85,7 +105,7 @@ const Registration = () => {
                     <label htmlFor="">check me out</label>
                 </div>
 
-                <button onClick={validateUser} type='submit' className='btn btn-primary'>Login</button>
+                <button onClick={SaveData}  type='submit' className='btn btn-primary'>Register</button>
                 <span>  </span>
                 <button onClick={eraseUser} type='submit' className='btn btn-danger'>Clear</button>
             </form>

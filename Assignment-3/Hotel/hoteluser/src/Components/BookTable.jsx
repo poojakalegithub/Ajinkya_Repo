@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 
-const AddHotel = () => {
-  const [name, setName] = useState("");
-  const [type, settype] = useState("");
-  const [price, setprice] = useState(0);
-  const [size, setsize] = useState(0);
-  const [capacity, setcapacity] = useState(1);
-  const [description, setdescription] = useState("");
+const BookTable = () => {
+  const [name, setname] = useState("");
+  const [number, setnumber] = useState("");
+  const [email, setemail] = useState("");
+  const [table, settable] = useState("");
+  const [time, settime] = useState("");
+  
 
   function saveData() {
-    let data = { name, type, price, size, capacity, description };
+    let data = { name,number,email,table,time };
     console.warn(data);
-    fetch("http://localhost:8000/Hotels", {
+    fetch("http://localhost:3002/Table", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -31,7 +31,7 @@ const AddHotel = () => {
       <div className="row">
         <div className="col-md-10 mx-auto col-12 card shadow-lg border-0 p-4">
           <div>
-            <h1 className="display-4 text-center">Add Hotels</h1>
+            <h1 className="display-4 text-center">Book Table</h1>
           </div>
 
           <div className="row my-4">
@@ -44,62 +44,52 @@ const AddHotel = () => {
                       type="text"
                       className="form-control"
                       value={name}
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={(e) => setname(e.target.value)}
                       id="name"
-                      placeholder="Hotel name"
+                      placeholder="Your name"
                       required
                     />
-                    <label htmlFor="type">Type</label>
+                    <label htmlFor="type">Number</label>
                     <input
                       type="text"
                       className="form-control"
-                      value={type}
-                      onChange={(e) => settype(e.target.value)}
+                      value={number}
+                      onChange={(e) => setnumber(e.target.value)}
                       id="type"
-                      placeholder="Hotel type"
+                      placeholder="Your number"
                       required
                     />
 
-                    <label htmlFor="price">Price</label>
+                    <label htmlFor="price">Email</label>
                     <input
                       type="text"
-                      value={price}
-                      onChange={(e) => setprice(e.target.value)}
+                      value={email}
+                      onChange={(e) => setemail(e.target.value)}
                       className="form-control"
                       required
                       id="price"
-                      placeholder="Hotel price"
+                      placeholder="Your Email"
                     />
-                    <label htmlFor="size">Size</label>
+                    <label htmlFor="size">Table for how many ?</label>
                     <input
                       type="text"
                       className="form-control"
-                      value={size}
-                      onChange={(e) => setsize(e.target.value)}
+                      value={table}
+                      onChange={(e) => settable(e.target.value)}
                       required
                       id="size"
-                      placeholder="Hotel Size"
+                      placeholder="we need a number"
                     />
-                    <label htmlFor="capacity">Capacity</label>
+                    <label htmlFor="Table">Time</label>
                     <input
                       type="text"
-                      value={capacity}
-                      onChange={(e) => setcapacity(e.target.value)}
+                      value={time}
+                      onChange={(e) => settime(e.target.value)}
                       className="form-control"
                       required
                       id="capacity"
-                      placeholder="Capacity"
+                      placeholder="Time"
                     />
-
-                    <label htmlFor="description">Description</label>
-                    <textarea
-                      className="form-control"
-                      value={description}
-                      onChange={(e) => setdescription(e.target.value)}
-                      id="description"
-                      placeholder="Short description of room."
-                      rows="3"
-                    ></textarea>
                   </div>
 
                   <div className="form-group form-check"></div>
@@ -108,7 +98,7 @@ const AddHotel = () => {
                   onClick={saveData}
                   className="btn btn-block btn-outline-primary"
                 >
-                  ADD HOTEL
+                  ADD TABLE
                 </button>
               </div>
             </div>
@@ -119,4 +109,4 @@ const AddHotel = () => {
   );
 };
 
-export default AddHotel;
+export default BookTable;

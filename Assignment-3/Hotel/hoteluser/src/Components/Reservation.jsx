@@ -1,26 +1,30 @@
 import React, { useEffect, useState } from "react";
-import data from "./Data/HotelData.json";
+import data from "./Data/UserData.json";
 
-function Table() {
-  const [UserData, setUserData] = useState(data.UserData);
+function Reservation() {
+  const [UserData, setUserData] = useState(data.Table);
 
   return (
     <div>
-      <h1> Users </h1>
+      <h1>Your Reservation</h1>
       <table>
         <thead>
           <tr>
             <th>Name</th>
-            <th>Email</th>
             <th>Number</th>
+            <th>Email</th>
+            <th>Table</th>
+            <th>Time</th>
           </tr>
         </thead>
         <tbody>
           {UserData.map((userdata) => (
             <tr>
               <td>{userdata.name}</td>
-              <td>{userdata.email}</td>
               <td>{userdata.number}</td>
+              <td>{userdata.email}</td>
+              <td>{userdata.table}</td>
+              <td>{userdata.time}</td>
             </tr>
           ))}
         </tbody>
@@ -29,4 +33,4 @@ function Table() {
   );
 }
 
-export default Table;
+export default Reservation;
