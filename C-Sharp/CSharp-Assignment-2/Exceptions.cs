@@ -10,16 +10,29 @@ namespace C_Sharp
     {
         public void Exception()
         {
-            int a = 10;
-            int b = 0;
-            int c = 0;
 
-            try
-            {
-                c = a / b;
-                string name = null;
-                Console.WriteLine(c);
-                Console.WriteLine(name.Length);
+
+            try {
+                //for dividebyzero
+
+                //int a = 10;
+                //int b = 0;
+                //int c = 0;
+                //c = a / b;
+                //Console.WriteLine(c);
+
+                //for nullexception
+
+                //string name = null;
+                //Console.WriteLine(name.Length);
+
+                //for generic exception
+
+                //int[] arr = new int[3];
+                //arr[0] = 11;
+                //arr[1] = 12;
+                //arr[2] = 22;
+                //arr[3] = 33;
 
             }
             catch (DivideByZeroException e)
@@ -27,6 +40,10 @@ namespace C_Sharp
                 Console.WriteLine(e.Message);
             }
             catch (NullReferenceException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
