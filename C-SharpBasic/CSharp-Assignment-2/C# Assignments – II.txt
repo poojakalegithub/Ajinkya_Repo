@@ -1,0 +1,14 @@
+C# Assignments – II
+
+1.	Write a C# program to validate an Email ID using – 
+a.	Using Regex
+
+2. Write a C# program that demonstrates NullReference, DivideByZero, StackOverFlow, Generic exceptions.
+
+3. Write a C# Program to Display the Student Details using Select Clause LINQ.
+
+4. Write a C# Program to Read a Text File.
+
+5. Write a C# Program to sort a list of employees based on salary in descending order and whose department is XYZ 
+
+6. Write a C# Program to demonstrate the use of Generic classes and methods.
