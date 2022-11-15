@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>CalculatorBasicCode</Title>
+    <Description>It code for simple arithmatic operations.</Description>
   </PropertyGroup>
 
 </Project>
