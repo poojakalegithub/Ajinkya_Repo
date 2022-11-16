@@ -9,10 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CSharp-Assignment-1\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="CSharp-Assignment-1\Inheritance.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>

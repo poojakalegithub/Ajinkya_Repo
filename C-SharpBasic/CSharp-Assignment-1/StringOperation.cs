@@ -8,16 +8,16 @@ namespace C_Sharp
 {
     class StringOperation
     {
-        public void Operation()
+        public void stringOperation()
         {
 
             String name = "Ajinkya";
             String surname = "Sonawane";
             Console.Write("Enter a String : ");
             string Name = Console.ReadLine();
-            char[] stringArray = Name.ToCharArray();
-            Array.Reverse(stringArray);
-            string reverseString = new string(stringArray);
+            char[] UserName = Name.ToCharArray();
+            Array.Reverse(UserName);
+            string reverseString = new string(UserName);
 
             Console.WriteLine("First name = {0}", name);
             Console.WriteLine("Last name  = {0} ", surname);

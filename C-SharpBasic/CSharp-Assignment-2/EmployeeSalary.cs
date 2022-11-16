@@ -33,7 +33,6 @@ namespace C_Sharp
 
             var result_set = employeeSalaries.Where(emp => emp.Emp_Department == "XYZ").OrderByDescending(sal => sal.Emp_Salary);
 
-           
             foreach (EmployeeSalary emp in result_set)
             {
                 Console.WriteLine(emp.Emp_Id + " " +
@@ -41,7 +40,7 @@ namespace C_Sharp
                                 emp.Emp_Salary + " " +
                                 emp.Emp_Department);
             }
-
+            
         }
     }
 }

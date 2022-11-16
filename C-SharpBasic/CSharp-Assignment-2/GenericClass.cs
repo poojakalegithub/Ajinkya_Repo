@@ -11,18 +11,17 @@ namespace C_Sharp
         public INT MyProperty { get; set; }
         public STRING MyValue { get; set; }
 
-        public int Add(INT num1, INT num2)
+        public int Add(INT number1, INT number2)
         {
-            dynamic a = num1;
-            dynamic b = num2;
-            return a + b;
+            dynamic value1 = number1;
+            dynamic value2 = number2;
+            return value1 + value2;
         }
-
-        public string ConCat(STRING str1, STRING str2)
+        public string ConCat(STRING string1, STRING string2)
         {
-            dynamic a = str1;
-            dynamic b = str2;
-            return a + b;
+            dynamic stringValue1 = string1;
+            dynamic stringValue2 = string2;
+            return stringValue1 + stringValue2;
 
         }
 

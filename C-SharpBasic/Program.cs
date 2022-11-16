@@ -13,9 +13,9 @@ namespace C_Sharp // Note: actual namespace depends on the project name.
             //Bank bank = new Bank();
             //bank.Run();
 
-            //Email Validation
-            //Email email = new Email();
-            //email.Validation();
+            //Email Validation using loops
+            //EmailValidation emailValidation = new EmailValidation();
+            //emailValidation.Validation();
 
             //Enum 
             //Console.WriteLine("Country {0} {1}", (int)Countries.INDIA, Countries.INDIA);
@@ -26,16 +26,23 @@ namespace C_Sharp // Note: actual namespace depends on the project name.
             //Console.WriteLine("Country {0} {1}", (int)Countries.ENGLAND, Countries.ENGLAND);
             //Console.ReadLine();
 
+            //GetCountryCode getCountryCode = new GetCountryCode();
+            //getCountryCode.GetCode();
+
             //String Operation
             //StringOperation operation = new StringOperation();
-            //operation.Operation();
+            //operation.stringOperation();
 
             //Exceptions
-            Exceptions exception = new Exceptions();
-            exception.Exception();
+            //Exceptions exception = new Exceptions();
+            //exception.Exception();
+
+            //Email Validation using regex
+            //Email email = new Email();
+            //email.Validation();
 
             //Reading text file
-            //ReadFile readFile= new ReadFile();
+            //ReadFile readFile = new ReadFile();
             //readFile.Read();
 
             //Salary in decending order.
@@ -48,8 +55,8 @@ namespace C_Sharp // Note: actual namespace depends on the project name.
 
             //Generic Classes
             //GenericClass<int, string> generic = new GenericClass<int, string>();
-            //Console.WriteLine("Addition = {0}",generic.Add(12, 20));
-            //Console.WriteLine("Name = {0}",generic.ConCat("ajin", "kya"));
+            //Console.WriteLine("Addition = {0}", generic.Add(12, 20));
+            //Console.WriteLine("Name = {0}", generic.ConCat("ajin", "kya"));
 
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace C_Sharp
+﻿using System;
+
+namespace C_Sharp
 {
     class Bank
     {
@@ -8,13 +10,11 @@
         public int bankid;
         public int citycode;
 
-
         public Bank()
         {
             bankid = 101;
             citycode = 063;
         }
-
 
         public void Display()
         {
@@ -24,11 +24,20 @@
 
         public void Run()
         {
-            int P = 20000, R = 8, T = 1;
-            int SI;
-            String FirstName = "Ajinkya";
-            String LastName = "Sonawane";
-            String city = "Dhule";
+            Console.WriteLine("Enter Principal Amount = ");
+            int PrincipalAmount = Convert.ToInt32( Console.ReadLine());
+            Console.WriteLine("Enter Principal Rate = ");
+            int Rate = Convert.ToInt32( Console.ReadLine());
+            Console.WriteLine("Enter Principal Time = ");
+            int Time = Convert.ToInt32( Console.ReadLine());
+            int SimpleIntrest = 0;
+
+            Console.WriteLine("Enter the Firstname = ");
+            String FirstName = Console.ReadLine();
+            Console.WriteLine("Enter the Lastname = ");
+            String LastName = Console.ReadLine();
+            Console.WriteLine("Enter the city name =");
+            String city = Console.ReadLine();
 
             Customer customer = new Customer();
             customer.Display();
@@ -36,13 +45,11 @@
             customer.Current();
             customer.Details(FirstName, LastName);
             customer.Details(FirstName, LastName, city);
-            SI = customer.Intrest(P, R, T);
-            Console.WriteLine("Simple Intrest = {0}", SI);
+            SimpleIntrest = customer.Intrest(PrincipalAmount, Rate, Time);
+            Console.WriteLine("Simple Intrest = {0}", SimpleIntrest);
             Console.WriteLine("Bankid = {0}", customer.bankid);
             Console.WriteLine("Cityid = {0}", customer.citycode);
-        }
-
-        
+        }   
     }
 
     class Account : Bank
@@ -73,14 +80,9 @@
     class Customer : Account
     {
         public int[] CustomerId = { 112, 234, 545, 234, 33 };
-
-
-
-
-
-        public int Intrest(int P, int R, int T)
+        public int Intrest(int PrincipalAmount, int Rate, int Time)
         {
-            return (P * R * T) / 100;
+            return (PrincipalAmount * Rate * Time) / 100;
 
         }
 
@@ -102,9 +104,5 @@
         {
             Console.WriteLine("First Name = {0} Last Name = {1}  City = {2}", FirstName, LastName, city);
         }
-
-
     }
-
-
 }

@@ -8,24 +8,18 @@ namespace C_Sharp
 {
     class StudentData
     {
-
-       
         int    Student_Id, Student_Sem;
         string Student_Dept, Student_Name;
         
-      
         public override string ToString()
         {
             return Student_Id + "\t " + Student_Name + "\t " +
                 Student_Dept + "\t " + Student_Sem;
         }
-
-        
+ 
         public void Display()
         {
-
-           
-            List<StudentData> stu = new List<StudentData>()
+            List<StudentData> student = new List<StudentData>()
             {
 
                 new StudentData{ Student_Id = 101, Student_Name = "Ajinkya", Student_Dept = "CSE", Student_Sem = 2 },
@@ -34,18 +28,15 @@ namespace C_Sharp
             };
 
             
-            IEnumerable<StudentData> Query = from student in stu select student;
+            IEnumerable<StudentData> Query = from Student in student select Student;
 
             Console.WriteLine("ID \t Name \t Department \t Semester");
             foreach (StudentData e in Query)
             {
-
-          
                 Console.WriteLine(e.ToString());
             }
         }
     }
-
 }
 
 
