@@ -30,3 +30,4 @@ C:\Users\Ajinkya.Sonwane\source\repos\CalculatorMinimalAPI\obj\Debug\net6.0\refi
 C:\Users\Ajinkya.Sonwane\source\repos\CalculatorMinimalAPI\obj\Debug\net6.0\CalculatorMinimalAPI.pdb
 C:\Users\Ajinkya.Sonwane\source\repos\CalculatorMinimalAPI\obj\Debug\net6.0\CalculatorMinimalAPI.genruntimeconfig.cache
 C:\Users\Ajinkya.Sonwane\source\repos\CalculatorMinimalAPI\obj\Debug\net6.0\ref\CalculatorMinimalAPI.dll
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorMinimalAPI\bin\Debug\net6.0\CalculatorLibrary.dll
