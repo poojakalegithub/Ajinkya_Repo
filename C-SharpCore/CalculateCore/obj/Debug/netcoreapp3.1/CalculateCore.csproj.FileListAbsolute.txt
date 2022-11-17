@@ -1,0 +1,16 @@
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\bin\Debug\netcoreapp3.1\CalculateCore.exe
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\bin\Debug\netcoreapp3.1\CalculateCore.deps.json
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\bin\Debug\netcoreapp3.1\CalculateCore.runtimeconfig.json
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\bin\Debug\netcoreapp3.1\CalculateCore.runtimeconfig.dev.json
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\bin\Debug\netcoreapp3.1\CalculateCore.dll
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\bin\Debug\netcoreapp3.1\CalculateCore.pdb
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.csproj.AssemblyReference.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.csproj.GenerateResource.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.AssemblyInfoInputs.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.AssemblyInfo.cs
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.csproj.CoreCompileInputs.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.dll
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.pdb
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.genruntimeconfig.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculateCore\obj\Debug\netcoreapp3.1\CalculateCore.Calculator.resources
