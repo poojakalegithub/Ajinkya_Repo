@@ -11,7 +11,7 @@
         static void Main(string[] args)
         {
             SqlConnection sqlConnection;
-            String connectionString = @"Data Source=PUN-NB-LE3B55K\SQLEXPRESS;Initial Catalog=EmployeeData;Integrated Security=True";
+            string connectionString = @"Data Source=PUN-NB-LE3B55K\SQLEXPRESS;Initial Catalog=EmployeeData;Integrated Security=True";
             sqlConnection = new SqlConnection(connectionString);
             sqlConnection.Open();
             try
@@ -28,10 +28,10 @@
                         case 1:
 
                             Console.WriteLine("Enter employee name = ");
-                            String EmployeeName = Console.ReadLine();
+                            string EmployeeName = Console.ReadLine();
                             Console.WriteLine("Enter employee salary = ");
                             int EmployeeSalary = int.Parse(Console.ReadLine());
-                            String insertQuery = "INSERT INTO EmployeeData (EmployeeName, EmployeeSalary) VALUES('" + EmployeeName + "'," + EmployeeSalary + ")";
+                            string insertQuery = $"INSERT INTO EmployeeData (EmployeeName, EmployeeSalary) VALUES( {EmployeeName}, {EmployeeSalary})";
                             SqlCommand insertCommand = new SqlCommand(insertQuery, sqlConnection);
                             insertCommand.ExecuteNonQuery();
                             Console.WriteLine("Data stored successfully");
@@ -39,13 +39,13 @@
 
                         case 2:
 
-                            String displayQuery = "SELECT * FROM EmployeeData";
+                            string displayQuery = "SELECT * FROM EmployeeData";
                             SqlCommand viewCommand = new SqlCommand(displayQuery, sqlConnection);
                             SqlDataReader dataReader = viewCommand.ExecuteReader();
                             while (dataReader.Read())
                             {
-                                Console.WriteLine("Employee Id: " + dataReader.GetValue(0).ToString());
-                                Console.WriteLine("Employee Name: " + dataReader.GetValue(1).ToString());
+                                Console.WriteLine("Employee Id:\t " + dataReader.GetValue(0).ToString());
+                                Console.WriteLine("Employee Name:\t " + dataReader.GetValue(1).ToString());
                                 Console.WriteLine("Employee Salary: " + dataReader.GetValue(2).ToString());
                             }
                             dataReader.Close();
@@ -53,29 +53,29 @@
 
                         case 3:
 
-                            String employee_name;
-                            int employee_id ,employee_salary;
+                            string employeeName;
+                            int employeeId, employeeSalary;
                             Console.WriteLine("Enter the employee id of the entry to be Updated =");
-                            employee_id = int.Parse(Console.ReadLine());
+                            employeeId = int.Parse(Console.ReadLine());
                             Console.WriteLine("Enter the name you would like to change =");
-                            employee_name = Console.ReadLine();
+                            employeeName = Console.ReadLine();
                             Console.WriteLine("Enter the employee salary you like to change =");
-                            employee_salary = int.Parse(Console.ReadLine());
-                            String updateQuery_name = "UPDATE EmployeeData SET EmployeeName = '" + employee_name + "' WHERE EmployeeId = " + employee_id + "";
-                            String updateQuery_salary = "UPDATE EmployeeData SET EmployeeSalary = '" + employee_salary + "' WHERE EmployeeId = " + employee_id + "";
-                            SqlCommand updateCommand_name = new SqlCommand(updateQuery_name, sqlConnection);
-                            SqlCommand updateCommand_salary = new SqlCommand(updateQuery_salary, sqlConnection);
-                            updateCommand_name.ExecuteNonQuery();
-                            updateCommand_salary.ExecuteNonQuery();
+                            employeeSalary = int.Parse(Console.ReadLine());
+                            string updateQueryName = $"UPDATE EmployeeData SET EmployeeName = '{employeeName}'  WHERE EmployeeId = '{employeeId}'";
+                            string updateQuerySalary = $"UPDATE EmployeeData SET EmployeeSalary = '{employeeSalary}'  WHERE EmployeeId = '{employeeId}'";
+                            SqlCommand updateCommandName = new SqlCommand(updateQueryName, sqlConnection);
+                            SqlCommand updateCommandSalary = new SqlCommand(updateQuerySalary, sqlConnection);
+                            updateCommandName.ExecuteNonQuery();
+                            updateCommandSalary.ExecuteNonQuery();
                             Console.WriteLine("Successfully updated");
                             break;
 
                         case 4:
 
-                            int delete_id;
+                            int deleteId;
                             Console.WriteLine("Enter the id of the entry to be removed");
-                            delete_id = int.Parse(Console.ReadLine());
-                            String deleteQuery = "DELETE FROM EmployeeData WHERE EmployeeId = " + delete_id + "";
+                            deleteId = int.Parse(Console.ReadLine());
+                            string deleteQuery = $"DELETE FROM EmployeeData WHERE EmployeeId = {deleteId} ";
                             SqlCommand deleteCommand = new SqlCommand(deleteQuery, sqlConnection);
                             deleteCommand.ExecuteNonQuery();
                             Console.WriteLine("Successfully deleted");

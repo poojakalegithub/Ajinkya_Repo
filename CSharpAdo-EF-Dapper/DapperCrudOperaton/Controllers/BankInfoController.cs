@@ -60,7 +60,7 @@ namespace DapperCrudOperaton.Controllers
 
 
         [HttpDelete("{customerID}")]
-        public async Task<ActionResult<List<BankInfo>>> UpdateByID(int customerID)
+        public async Task<ActionResult<List<BankInfo>>> DeleteStudent(int customerID)
         {
             using var connection = new SqlConnection(_configuration.GetConnectionString("BankInfoConnection"));
             await connection.ExecuteAsync("DELETE FROM BankInfo WHERE customerID = @customerId",

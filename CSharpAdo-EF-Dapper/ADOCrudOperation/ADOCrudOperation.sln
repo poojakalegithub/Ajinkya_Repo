@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOCrudOperation", "ADOCrudOperation.csproj", "{9CA11703-9F19-43FD-B263-699FB3A19E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOCrudOperation", "ADOCrudOperation.csproj", "{9CA11703-9F19-43FD-B263-699FB3A19E28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperCrudOperaton", "..\DapperCrudOperaton\DapperCrudOperaton.csproj", "{F36DF9CE-61C5-4966-BCD9-9E39C41F8634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCRUD", "..\EntityFrameworkCRUD\EntityFrameworkCRUD.csproj", "{878B1B59-0472-4AED-9931-E6558D7A7BF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9CA11703-9F19-43FD-B263-699FB3A19E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CA11703-9F19-43FD-B263-699FB3A19E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CA11703-9F19-43FD-B263-699FB3A19E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36DF9CE-61C5-4966-BCD9-9E39C41F8634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36DF9CE-61C5-4966-BCD9-9E39C41F8634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36DF9CE-61C5-4966-BCD9-9E39C41F8634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36DF9CE-61C5-4966-BCD9-9E39C41F8634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878B1B59-0472-4AED-9931-E6558D7A7BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878B1B59-0472-4AED-9931-E6558D7A7BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878B1B59-0472-4AED-9931-E6558D7A7BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878B1B59-0472-4AED-9931-E6558D7A7BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
