@@ -54,9 +54,10 @@ namespace C_Sharp // Note: actual namespace depends on the project name.
             //studentData.Display();
 
             //Generic Classes
-            //GenericClass<int, string> generic = new GenericClass<int, string>();
+            //GenericClass<int> generic = new GenericClass<int>();
+            //GenericClass<string> genericString = new GenericClass<string>();
             //Console.WriteLine("Addition = {0}", generic.Add(12, 20));
-            //Console.WriteLine("Name = {0}", generic.ConCat("ajin", "kya"));
+            //Console.WriteLine("Name = {0}", genericString.ConCat("ajin", "kya"));
 
         }
     }
