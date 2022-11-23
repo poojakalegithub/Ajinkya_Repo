@@ -1,0 +1,10 @@
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.deps.json
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\bin\Debug\netstandard2.0\CalculatorLibrary.pdb
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfoInputs.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.AssemblyInfo.cs
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.dll
+C:\Users\Ajinkya.Sonwane\source\repos\CalculatorLibrary\obj\Debug\netstandard2.0\CalculatorLibrary.pdb
