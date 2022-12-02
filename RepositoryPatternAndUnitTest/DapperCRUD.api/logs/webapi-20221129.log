@@ -1,0 +1,834 @@
+[2022-11-29 10:54:51.892 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 10:54:51.930 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 10:54:51.938 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 10:54:51.939 +05:30  INF]  Hosting environment: Development
+[2022-11-29 10:54:51.939 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 10:54:52.801 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 10:54:53.193 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 398.9495ms
+[2022-11-29 10:54:53.225 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 10:54:53.230 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.0841ms
+[2022-11-29 10:54:53.271 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 10:54:53.329 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.4281ms
+[2022-11-29 10:54:53.434 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 10:54:53.615 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.2792ms
+[2022-11-29 10:55:00.653 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 10:55:00.676 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 10:55:00.747 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 10:55:00.758 +05:30  INF]  StudentInfo executing...
+[2022-11-29 10:55:01.934 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 10:55:01.966 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1204.3931ms
+[2022-11-29 10:55:01.972 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 10:55:01.976 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1322.9587ms
+[2022-11-29 11:00:49.427 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 11:00:49.457 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 11:00:49.461 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 11:00:49.461 +05:30  INF]  Hosting environment: Development
+[2022-11-29 11:00:49.461 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 11:00:50.028 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 11:00:50.465 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 443.7526ms
+[2022-11-29 11:00:50.486 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 11:00:50.491 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.7126ms
+[2022-11-29 11:00:50.540 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 11:00:50.594 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.2344ms
+[2022-11-29 11:00:50.677 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 11:00:50.810 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.8855ms
+[2022-11-29 11:00:59.219 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 11:00:59.246 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:00:59.333 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:00:59.344 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:01:00.520 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:01:00.557 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1202.3533ms
+[2022-11-29 11:01:00.564 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:01:00.567 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1348.5205ms
+[2022-11-29 11:01:45.111 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7105/api/Student application/json 90
+[2022-11-29 11:01:45.126 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api)'
+[2022-11-29 11:01:45.168 +05:30  INF]  Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Add(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:01:45.285 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:01:45.566 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:01:45.568 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api) in 399.693ms
+[2022-11-29 11:01:45.569 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api)'
+[2022-11-29 11:01:45.569 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7105/api/Student application/json 90 - 200 - application/json;+charset=utf-8 458.2100ms
+[2022-11-29 11:02:01.162 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 11:02:01.162 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:02:01.165 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:02:01.166 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:02:01.187 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:02:01.188 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 22.6461ms
+[2022-11-29 11:02:01.189 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:02:01.189 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 27.6815ms
+[2022-11-29 11:02:58.415 +05:30  INF]  Request starting HTTP/2 PUT https://localhost:7105/api/Student application/json 104
+[2022-11-29 11:02:58.416 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 11:02:58.451 +05:30  INF]  Route matched with {action = "Update", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Update(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:02:58.462 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:02:58.499 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:02:58.499 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api) in 48.2295ms
+[2022-11-29 11:02:58.499 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 11:02:58.499 +05:30  INF]  Request finished HTTP/2 PUT https://localhost:7105/api/Student application/json 104 - 200 - application/json;+charset=utf-8 87.4084ms
+[2022-11-29 11:03:16.082 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 11:03:16.082 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:03:16.088 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:03:16.091 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:03:16.099 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:03:16.101 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 9.8491ms
+[2022-11-29 11:03:16.101 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:03:16.101 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 21.8453ms
+[2022-11-29 11:03:38.195 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student/1 - -
+[2022-11-29 11:03:38.195 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 11:03:38.244 +05:30  INF]  Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.StudentInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:03:38.248 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:03:38.287 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-11-29 11:03:38.289 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api) in 45.1507ms
+[2022-11-29 11:03:38.290 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 11:03:38.290 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student/1 - - - 200 - application/json;+charset=utf-8 95.0615ms
+[2022-11-29 11:03:55.196 +05:30  INF]  Request starting HTTP/2 DELETE https://localhost:7105/api/Student?id=2 - -
+[2022-11-29 11:03:55.196 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Delete (DapperCRUD.api)'
+[2022-11-29 11:03:55.209 +05:30  INF]  Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Delete(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:03:55.226 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:03:55.240 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:03:55.240 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Delete (DapperCRUD.api) in 30.5103ms
+[2022-11-29 11:03:55.240 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Delete (DapperCRUD.api)'
+[2022-11-29 11:03:55.240 +05:30  INF]  Request finished HTTP/2 DELETE https://localhost:7105/api/Student?id=2 - - - 200 - application/json;+charset=utf-8 44.6747ms
+[2022-11-29 11:04:16.288 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student/2 - -
+[2022-11-29 11:04:16.288 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 11:04:16.291 +05:30  INF]  Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.StudentInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:04:16.291 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:04:16.310 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-11-29 11:04:16.313 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api) in 21.8733ms
+[2022-11-29 11:04:16.313 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 11:04:16.313 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student/2 - - - 200 - application/json;+charset=utf-8 26.0987ms
+[2022-11-29 11:04:34.887 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 11:04:34.887 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:04:34.887 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:04:34.887 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:04:34.901 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:04:34.902 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 14.6401ms
+[2022-11-29 11:04:34.902 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:04:34.902 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 15.7268ms
+[2022-11-29 11:33:27.059 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 11:33:27.125 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 11:33:27.131 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 11:33:27.132 +05:30  INF]  Hosting environment: Development
+[2022-11-29 11:33:27.132 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 11:33:27.854 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 11:33:28.331 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 487.7190ms
+[2022-11-29 11:33:28.366 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 11:33:28.374 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 8.2100ms
+[2022-11-29 11:33:28.461 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 11:33:28.598 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.8471ms
+[2022-11-29 11:33:28.730 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 11:33:29.020 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 290.4037ms
+[2022-11-29 11:33:43.034 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 11:33:43.109 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:33:43.198 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 11:33:43.214 +05:30  INF]  StudentInfo executing...
+[2022-11-29 11:33:44.479 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 11:33:44.523 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1303.9953ms
+[2022-11-29 11:33:44.534 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 11:33:44.537 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1505.1538ms
+[2022-11-29 14:04:03.284 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:04:03.325 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:04:03.328 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:04:03.329 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:04:03.329 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:04:03.804 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:04:04.335 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 535.2085ms
+[2022-11-29 14:04:04.359 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:04:04.364 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.5619ms
+[2022-11-29 14:04:04.424 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:04:04.473 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.9953ms
+[2022-11-29 14:04:04.577 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:04:04.725 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.8366ms
+[2022-11-29 14:04:11.551 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 14:04:11.580 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:04:11.670 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 14:04:11.678 +05:30  INF]  StudentInfo executing...
+[2022-11-29 14:04:12.801 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:04:12.834 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1143.2425ms
+[2022-11-29 14:04:12.840 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:04:12.843 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1291.6882ms
+[2022-11-29 14:12:02.353 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:12:02.397 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:12:02.399 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:12:02.400 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:12:02.400 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:12:03.001 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:12:03.464 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 467.8497ms
+[2022-11-29 14:12:03.489 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:12:03.497 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.7108ms
+[2022-11-29 14:12:03.549 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:12:03.610 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.5423ms
+[2022-11-29 14:12:03.723 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:12:03.890 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.1351ms
+[2022-11-29 14:12:39.522 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7105/api/Teacher application/json 87
+[2022-11-29 14:12:39.538 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.Add (DapperCRUD.api)'
+[2022-11-29 14:12:39.581 +05:30  INF]  Route matched with {action = "Add", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Add(DapperCRUD.Domain.Entities.TeacherInfo) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:12:40.245 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:12:40.264 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.Add (DapperCRUD.api) in 667.6954ms
+[2022-11-29 14:12:40.267 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.Add (DapperCRUD.api)'
+[2022-11-29 14:12:40.268 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7105/api/Teacher application/json 87 - 200 - application/json;+charset=utf-8 745.9911ms
+[2022-11-29 14:12:55.966 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:12:55.979 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:12:55.987 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:12:56.956 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 969.1961ms
+[2022-11-29 14:12:56.958 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:12:56.973 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at Dapper.SqlMapper.ThrowMultipleRows(Row row) in /_/Dapper/SqlMapper.cs:line 1157
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 482
+   at DapperCRUD.Infrasturcture.Repository.TeacherRepository.GetByIdAsync(Int64 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\TeacherRepository.cs:line 33
+   at DapperCRUD.api.Controllers.TeacherController.GetById(Int32 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\TeacherController.cs:line 31
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+[2022-11-29 14:12:57.187 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 500 - text/plain;+charset=utf-8 1221.4685ms
+[2022-11-29 14:26:42.989 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:26:43.019 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:26:43.021 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:26:43.022 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:26:43.022 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:26:43.706 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:26:44.173 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 470.3198ms
+[2022-11-29 14:26:44.192 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:26:44.195 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 3.5256ms
+[2022-11-29 14:26:44.257 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:26:44.313 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.1450ms
+[2022-11-29 14:26:44.411 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:26:44.562 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.8730ms
+[2022-11-29 14:26:51.496 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 14:26:51.508 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:26:51.532 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 14:26:51.535 +05:30  INF]  StudentInfo executing...
+[2022-11-29 14:26:52.202 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:26:52.212 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 673.6534ms
+[2022-11-29 14:26:52.216 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:26:52.217 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 721.2968ms
+[2022-11-29 14:27:21.729 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher - -
+[2022-11-29 14:27:21.734 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:27:21.736 +05:30  INF]  Route matched with {action = "GetAll", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.TeacherInfo]]] GetAll() on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:27:21.749 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.TeacherInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:27:21.751 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api) in 14.2687ms
+[2022-11-29 14:27:21.751 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:27:21.751 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher - - - 200 - application/json;+charset=utf-8 22.2004ms
+[2022-11-29 14:27:39.141 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:27:39.142 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:27:39.159 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:27:39.932 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 772.9471ms
+[2022-11-29 14:27:39.932 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:27:39.936 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spGetByIDTeacher' expects parameter '@teacherId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at DapperCRUD.Infrasturcture.Repository.TeacherRepository.GetByIdAsync(Int64 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\TeacherRepository.cs:line 33
+   at DapperCRUD.api.Controllers.TeacherController.GetById(Int32 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\TeacherController.cs:line 31
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:36c51290-c86c-4611-be1d-77b72ec25ddd
+Error Number:201,State:4,Class:16
+[2022-11-29 14:27:40.058 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 500 - text/plain;+charset=utf-8 916.7201ms
+[2022-11-29 14:30:47.455 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:30:47.491 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:30:47.493 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:30:47.494 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:30:47.494 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:30:48.306 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:30:48.792 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 490.8317ms
+[2022-11-29 14:30:48.835 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:30:48.840 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.6296ms
+[2022-11-29 14:30:48.871 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:30:48.915 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.0907ms
+[2022-11-29 14:30:49.010 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:30:49.186 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.0536ms
+[2022-11-29 14:31:01.042 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:31:01.067 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:31:01.169 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:31:03.033 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 1847.3667ms
+[2022-11-29 14:31:03.042 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:31:03.062 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spGetByIDTeacher' expects parameter '@teacherId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at DapperCRUD.Infrasturcture.Repository.TeacherRepository.GetByIdAsync(Int64 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\TeacherRepository.cs:line 33
+   at DapperCRUD.api.Controllers.TeacherController.GetById(Int32 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\TeacherController.cs:line 31
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3dd53a06-9f44-479b-be23-30ff0b37d3fa
+Error Number:201,State:4,Class:16
+[2022-11-29 14:31:03.297 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 500 - text/plain;+charset=utf-8 2255.2282ms
+[2022-11-29 14:32:25.880 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:32:25.908 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:32:25.911 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:32:25.911 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:32:25.911 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:32:26.791 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:32:27.166 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 376.2526ms
+[2022-11-29 14:32:27.184 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:32:27.188 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 3.9567ms
+[2022-11-29 14:32:27.254 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:32:27.298 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.6415ms
+[2022-11-29 14:32:27.423 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:32:27.545 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.4748ms
+[2022-11-29 14:32:37.054 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:32:37.081 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:32:37.194 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:32:38.877 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 1666.5233ms
+[2022-11-29 14:32:38.885 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:32:38.904 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spGetByIDTeacher' expects parameter '@teacherId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at DapperCRUD.Infrasturcture.Repository.TeacherRepository.GetByIdAsync(Int64 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\TeacherRepository.cs:line 33
+   at DapperCRUD.api.Controllers.TeacherController.GetById(Int32 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\TeacherController.cs:line 31
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:c1c7435e-c211-4246-9e3c-0f8e46b12db0
+Error Number:201,State:4,Class:16
+[2022-11-29 14:32:39.111 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 500 - text/plain;+charset=utf-8 2057.9038ms
+[2022-11-29 14:33:08.495 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:33:08.497 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:33:08.498 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:33:08.696 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 197.9598ms
+[2022-11-29 14:33:08.697 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:33:08.699 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'spGetByIDTeacher' expects parameter '@teacherId', which was not supplied.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at DapperCRUD.Infrasturcture.Repository.TeacherRepository.GetByIdAsync(Int64 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\TeacherRepository.cs:line 33
+   at DapperCRUD.api.Controllers.TeacherController.GetById(Int32 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\TeacherController.cs:line 31
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:c1c7435e-c211-4246-9e3c-0f8e46b12db0
+Error Number:201,State:4,Class:16
+[2022-11-29 14:33:08.708 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 500 - text/plain;+charset=utf-8 212.7025ms
+[2022-11-29 14:35:39.650 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:35:39.686 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:35:39.690 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:35:39.691 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:35:39.691 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:35:40.426 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:35:40.867 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 446.1992ms
+[2022-11-29 14:35:40.890 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:35:40.895 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.5818ms
+[2022-11-29 14:35:40.938 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:35:40.982 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.5859ms
+[2022-11-29 14:35:41.083 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:35:41.229 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 146.3235ms
+[2022-11-29 14:35:55.690 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:35:55.716 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:35:55.827 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:35:57.669 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 1824.3466ms
+[2022-11-29 14:35:57.678 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:35:57.694 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__126_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 473
+   at DapperCRUD.Infrasturcture.Repository.TeacherRepository.GetByIdAsync(Int64 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\TeacherRepository.cs:line 33
+   at DapperCRUD.api.Controllers.TeacherController.GetById(Int32 id) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\TeacherController.cs:line 31
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:e2468982-6c2d-401a-9a22-0a6eb31f2970
+Error Number:8114,State:5,Class:16
+[2022-11-29 14:35:57.936 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 500 - text/plain;+charset=utf-8 2246.6813ms
+[2022-11-29 14:36:44.286 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:36:44.328 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:36:44.331 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:36:44.331 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:36:44.331 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:36:45.091 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:36:45.545 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 460.8842ms
+[2022-11-29 14:36:45.570 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:36:45.575 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.0847ms
+[2022-11-29 14:36:45.637 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:36:45.686 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.3766ms
+[2022-11-29 14:36:45.800 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:36:45.943 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.1309ms
+[2022-11-29 14:36:59.874 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student/1 - -
+[2022-11-29 14:36:59.903 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 14:37:00.010 +05:30  INF]  Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.StudentInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 14:37:00.079 +05:30  INF]  StudentInfo executing...
+[2022-11-29 14:37:01.438 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-11-29 14:37:01.466 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api) in 1441.5578ms
+[2022-11-29 14:37:01.475 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 14:37:01.481 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student/1 - - - 200 - application/json;+charset=utf-8 1606.7995ms
+[2022-11-29 14:37:13.476 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher/2 - -
+[2022-11-29 14:37:13.477 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:37:13.487 +05:30  INF]  Route matched with {action = "GetById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.TeacherInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:37:13.516 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[DapperCRUD.Domain.Entities.TeacherInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-11-29 14:37:13.520 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api) in 33.0484ms
+[2022-11-29 14:37:13.520 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetById (DapperCRUD.api)'
+[2022-11-29 14:37:13.521 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher/2 - - - 200 - application/json;+charset=utf-8 44.9424ms
+[2022-11-29 14:41:47.347 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:41:47.377 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:41:47.380 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:41:47.381 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:41:47.381 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:41:48.296 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:41:48.751 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 458.2850ms
+[2022-11-29 14:41:48.772 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:41:48.777 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.9119ms
+[2022-11-29 14:41:48.840 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:41:48.883 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4016ms
+[2022-11-29 14:41:48.993 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:41:49.158 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 164.3511ms
+[2022-11-29 14:42:33.236 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7105/api/Teacher application/json 84
+[2022-11-29 14:42:33.294 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.Add (DapperCRUD.api)'
+[2022-11-29 14:42:33.378 +05:30  INF]  Route matched with {action = "Add", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Add(DapperCRUD.Domain.Entities.TeacherInfo) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:42:34.563 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:42:34.589 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.Add (DapperCRUD.api) in 1195.4026ms
+[2022-11-29 14:42:34.610 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.Add (DapperCRUD.api)'
+[2022-11-29 14:42:34.615 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7105/api/Teacher application/json 84 - 200 - application/json;+charset=utf-8 1378.2638ms
+[2022-11-29 14:42:49.978 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher - -
+[2022-11-29 14:42:49.980 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:42:49.987 +05:30  INF]  Route matched with {action = "GetAll", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.TeacherInfo]]] GetAll() on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:42:50.253 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.TeacherInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:42:50.257 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api) in 269.5688ms
+[2022-11-29 14:42:50.257 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:42:50.257 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher - - - 200 - application/json;+charset=utf-8 279.3985ms
+[2022-11-29 14:47:13.576 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 14:47:13.612 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 14:47:13.615 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 14:47:13.615 +05:30  INF]  Hosting environment: Development
+[2022-11-29 14:47:13.615 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 14:47:14.325 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 14:47:14.753 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 428.9312ms
+[2022-11-29 14:47:14.773 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 14:47:14.778 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.1239ms
+[2022-11-29 14:47:14.840 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 14:47:14.890 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.2782ms
+[2022-11-29 14:47:14.987 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 14:47:15.125 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.2976ms
+[2022-11-29 14:47:56.433 +05:30  INF]  Request starting HTTP/2 PUT https://localhost:7105/api/Teacher application/json 104
+[2022-11-29 14:47:56.463 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.Update (DapperCRUD.api)'
+[2022-11-29 14:47:56.574 +05:30  INF]  Route matched with {action = "Update", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Update(DapperCRUD.Domain.Entities.TeacherInfo) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:47:57.830 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:47:57.880 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.Update (DapperCRUD.api) in 1268.6629ms
+[2022-11-29 14:47:57.886 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.Update (DapperCRUD.api)'
+[2022-11-29 14:47:57.890 +05:30  INF]  Request finished HTTP/2 PUT https://localhost:7105/api/Teacher application/json 104 - 200 - application/json;+charset=utf-8 1457.1626ms
+[2022-11-29 14:48:22.744 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher - -
+[2022-11-29 14:48:22.761 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:48:22.771 +05:30  INF]  Route matched with {action = "GetAll", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.TeacherInfo]]] GetAll() on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 14:48:23.042 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.TeacherInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 14:48:23.045 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api) in 274.0623ms
+[2022-11-29 14:48:23.046 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 14:48:23.046 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher - - - 200 - application/json;+charset=utf-8 301.7759ms
+[2022-11-29 15:03:01.773 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 15:03:01.817 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 15:03:01.820 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 15:03:01.820 +05:30  INF]  Hosting environment: Development
+[2022-11-29 15:03:01.821 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 15:03:02.487 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 15:03:02.876 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 391.5146ms
+[2022-11-29 15:03:02.896 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 15:03:02.900 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.4113ms
+[2022-11-29 15:03:02.952 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 15:03:03.000 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.8771ms
+[2022-11-29 15:03:03.096 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 15:03:03.244 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.0042ms
+[2022-11-29 15:03:10.163 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 15:03:10.189 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:03:10.260 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:03:10.273 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:03:11.425 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:03:11.457 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1179.5057ms
+[2022-11-29 15:03:11.465 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:03:11.469 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1305.2806ms
+[2022-11-29 15:03:46.805 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7105/api/Student application/json 85
+[2022-11-29 15:03:46.816 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api)'
+[2022-11-29 15:03:46.858 +05:30  INF]  Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Add(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:03:46.950 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:03:47.846 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api) in 987.1289ms
+[2022-11-29 15:03:47.846 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api)'
+[2022-11-29 15:03:47.857 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function spAddStudent has too many arguments specified.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at DapperCRUD.Infrasturcture.Repository.StudentRepository.AddAsync(StudentInfo entity) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\StudentRepository.cs:line 43
+   at DapperCRUD.api.Controllers.StudentController.Add(StudentInfo student) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\StudentController.cs:line 45
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:6414131c-330e-41e0-aba6-58b74285f846
+Error Number:8144,State:2,Class:16
+[2022-11-29 15:03:48.063 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7105/api/Student application/json 85 - 500 - text/plain;+charset=utf-8 1258.0387ms
+[2022-11-29 15:04:30.347 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 15:04:30.375 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 15:04:30.378 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 15:04:30.378 +05:30  INF]  Hosting environment: Development
+[2022-11-29 15:04:30.378 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 15:04:31.131 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 15:04:31.507 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 381.1028ms
+[2022-11-29 15:04:31.527 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 15:04:31.531 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 3.9795ms
+[2022-11-29 15:04:31.586 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 15:04:31.645 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.7852ms
+[2022-11-29 15:04:31.737 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 15:04:31.872 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.9372ms
+[2022-11-29 15:05:09.141 +05:30  INF]  Request starting HTTP/2 POST https://localhost:7105/api/Student application/json 85
+[2022-11-29 15:05:09.194 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api)'
+[2022-11-29 15:05:09.299 +05:30  INF]  Route matched with {action = "Add", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Add(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:05:09.437 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:05:10.665 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:05:10.693 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api) in 1373.4397ms
+[2022-11-29 15:05:10.703 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Add (DapperCRUD.api)'
+[2022-11-29 15:05:10.706 +05:30  INF]  Request finished HTTP/2 POST https://localhost:7105/api/Student application/json 85 - 200 - application/json;+charset=utf-8 1564.3638ms
+[2022-11-29 15:05:25.504 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student/2 - -
+[2022-11-29 15:05:25.507 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 15:05:25.513 +05:30  INF]  Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.StudentInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:05:25.517 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:05:25.674 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-11-29 15:05:25.676 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api) in 161.9436ms
+[2022-11-29 15:05:25.676 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 15:05:25.676 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student/2 - - - 200 - application/json;+charset=utf-8 173.1994ms
+[2022-11-29 15:05:51.735 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student/3 - -
+[2022-11-29 15:05:51.735 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 15:05:51.738 +05:30  INF]  Route matched with {action = "GetById", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[DapperCRUD.Domain.Entities.StudentInfo]] GetById(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:05:51.739 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:05:51.870 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2022-11-29 15:05:51.872 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api) in 134.3567ms
+[2022-11-29 15:05:51.873 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetById (DapperCRUD.api)'
+[2022-11-29 15:05:51.873 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student/3 - - - 200 - application/json;+charset=utf-8 138.1944ms
+[2022-11-29 15:06:39.330 +05:30  INF]  Request starting HTTP/2 PUT https://localhost:7105/api/Student application/json 101
+[2022-11-29 15:06:39.330 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:06:39.371 +05:30  INF]  Route matched with {action = "Update", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Update(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:06:39.381 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:06:40.008 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api) in 636.3677ms
+[2022-11-29 15:06:40.009 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:06:40.025 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at DapperCRUD.Infrasturcture.Repository.StudentRepository.UpdateAsync(StudentInfo entity) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\StudentRepository.cs:line 53
+   at DapperCRUD.api.Controllers.StudentController.Update(StudentInfo student) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\StudentController.cs:line 56
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:5641d420-83bb-4b2b-a2b9-af9875d8fd4a
+Error Number:8114,State:5,Class:16
+[2022-11-29 15:06:40.269 +05:30  INF]  Request finished HTTP/2 PUT https://localhost:7105/api/Student application/json 101 - 500 - text/plain;+charset=utf-8 939.1968ms
+[2022-11-29 15:07:31.902 +05:30  INF]  Request starting HTTP/2 PUT https://localhost:7105/api/Student application/json 101
+[2022-11-29 15:07:31.902 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:07:31.907 +05:30  INF]  Route matched with {action = "Update", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Update(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:07:31.974 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:07:32.122 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api) in 214.2575ms
+[2022-11-29 15:07:32.123 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:07:32.125 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at DapperCRUD.Infrasturcture.Repository.StudentRepository.UpdateAsync(StudentInfo entity) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\StudentRepository.cs:line 53
+   at DapperCRUD.api.Controllers.StudentController.Update(StudentInfo student) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\StudentController.cs:line 56
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:5641d420-83bb-4b2b-a2b9-af9875d8fd4a
+Error Number:8114,State:5,Class:16
+[2022-11-29 15:07:32.141 +05:30  INF]  Request finished HTTP/2 PUT https://localhost:7105/api/Student application/json 101 - 500 - text/plain;+charset=utf-8 239.5353ms
+[2022-11-29 15:07:43.304 +05:30  INF]  Request starting HTTP/2 PUT https://localhost:7105/api/Student application/json 98
+[2022-11-29 15:07:43.305 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:07:43.305 +05:30  INF]  Route matched with {action = "Update", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Update(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:07:43.305 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:07:43.639 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api) in 334.0456ms
+[2022-11-29 15:07:43.640 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:07:43.642 +05:30  ERR]  An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to int.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 646
+   at DapperCRUD.Infrasturcture.Repository.StudentRepository.UpdateAsync(StudentInfo entity) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Infrasturcture\Repository\StudentRepository.cs:line 53
+   at DapperCRUD.api.Controllers.StudentController.Update(StudentInfo student) in C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\Controllers\StudentController.cs:line 56
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:5641d420-83bb-4b2b-a2b9-af9875d8fd4a
+Error Number:8114,State:5,Class:16
+[2022-11-29 15:07:43.653 +05:30  INF]  Request finished HTTP/2 PUT https://localhost:7105/api/Student application/json 98 - 500 - text/plain;+charset=utf-8 349.5024ms
+[2022-11-29 15:08:02.417 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 15:08:02.462 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 15:08:02.465 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 15:08:02.465 +05:30  INF]  Hosting environment: Development
+[2022-11-29 15:08:02.465 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 15:08:03.336 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 15:08:03.705 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 375.5947ms
+[2022-11-29 15:08:03.724 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 15:08:03.729 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.4988ms
+[2022-11-29 15:08:03.778 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 15:08:03.822 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.2426ms
+[2022-11-29 15:08:03.929 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 15:08:04.077 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.4635ms
+[2022-11-29 15:08:10.867 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 15:08:10.898 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:08:10.972 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:08:10.984 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:08:12.105 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:08:12.141 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1148.8669ms
+[2022-11-29 15:08:12.150 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:08:12.154 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1286.4947ms
+[2022-11-29 15:08:38.441 +05:30  INF]  Request starting HTTP/2 PUT https://localhost:7105/api/Student application/json 104
+[2022-11-29 15:08:38.445 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:08:38.488 +05:30  INF]  Route matched with {action = "Update", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Update(DapperCRUD.Domain.Entities.StudentInfo) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:08:38.586 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:08:38.775 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:08:38.777 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api) in 288.6662ms
+[2022-11-29 15:08:38.777 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Update (DapperCRUD.api)'
+[2022-11-29 15:08:38.778 +05:30  INF]  Request finished HTTP/2 PUT https://localhost:7105/api/Student application/json 104 - 200 - application/json;+charset=utf-8 338.0257ms
+[2022-11-29 15:08:57.832 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 15:08:57.832 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:08:57.832 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:08:57.833 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:08:57.840 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:08:57.840 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 7.5341ms
+[2022-11-29 15:08:57.840 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:08:57.840 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 8.6192ms
+[2022-11-29 15:09:22.826 +05:30  INF]  Request starting HTTP/2 DELETE https://localhost:7105/api/Student?id=3 - -
+[2022-11-29 15:09:22.826 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.Delete (DapperCRUD.api)'
+[2022-11-29 15:09:22.849 +05:30  INF]  Route matched with {action = "Delete", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Delete(Int32) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:09:22.868 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:09:22.912 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:09:22.912 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.Delete (DapperCRUD.api) in 63.4966ms
+[2022-11-29 15:09:22.913 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.Delete (DapperCRUD.api)'
+[2022-11-29 15:09:22.913 +05:30  INF]  Request finished HTTP/2 DELETE https://localhost:7105/api/Student?id=3 - - - 200 - application/json;+charset=utf-8 87.6930ms
+[2022-11-29 15:09:36.693 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 15:09:36.695 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:09:36.695 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:09:36.695 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:09:36.715 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:09:36.718 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 22.3035ms
+[2022-11-29 15:09:36.718 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:09:36.718 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 26.0598ms
+[2022-11-29 15:13:09.467 +05:30  INF]  Now listening on: https://localhost:7105
+[2022-11-29 15:13:09.543 +05:30  INF]  Now listening on: http://localhost:5134
+[2022-11-29 15:13:09.548 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-11-29 15:13:09.549 +05:30  INF]  Hosting environment: Development
+[2022-11-29 15:13:09.549 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-11-29 15:13:10.085 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/index.html - -
+[2022-11-29 15:13:10.529 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/index.html - - - 200 - text/html;charset=utf-8 448.8707ms
+[2022-11-29 15:13:10.548 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - -
+[2022-11-29 15:13:10.552 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 3.9660ms
+[2022-11-29 15:13:10.600 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/_vs/browserLink - -
+[2022-11-29 15:13:10.638 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.6847ms
+[2022-11-29 15:13:10.757 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - -
+[2022-11-29 15:13:10.905 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.5174ms
+[2022-11-29 15:13:17.325 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Student - -
+[2022-11-29 15:13:17.352 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:13:17.428 +05:30  INF]  Route matched with {action = "GetAll", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.StudentInfo]]] GetAll() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.api).
+[2022-11-29 15:13:17.439 +05:30  INF]  StudentInfo executing...
+[2022-11-29 15:13:18.626 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.StudentInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:13:18.663 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api) in 1213.9161ms
+[2022-11-29 15:13:18.673 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:13:18.677 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Student - - - 200 - application/json;+charset=utf-8 1351.5818ms
+[2022-11-29 15:13:33.616 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher - -
+[2022-11-29 15:13:33.619 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:13:33.629 +05:30  INF]  Route matched with {action = "GetAll", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.TeacherInfo]]] GetAll() on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 15:13:33.632 +05:30  INF]  TeacherInfo executing...
+[2022-11-29 15:13:33.655 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.TeacherInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:13:33.659 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api) in 30.3245ms
+[2022-11-29 15:13:33.659 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:13:33.660 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher - - - 200 - application/json;+charset=utf-8 43.6765ms
+[2022-11-29 15:13:50.341 +05:30  INF]  Request starting HTTP/2 DELETE https://localhost:7105/api/Teacher?id=2 - -
+[2022-11-29 15:13:50.342 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.Delete (DapperCRUD.api)'
+[2022-11-29 15:13:50.379 +05:30  INF]  Route matched with {action = "Delete", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.String]] Delete(Int32) on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 15:13:50.453 +05:30  INF]  TeacherInfo executing...
+[2022-11-29 15:13:50.753 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:13:50.755 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.Delete (DapperCRUD.api) in 375.7722ms
+[2022-11-29 15:13:50.755 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.Delete (DapperCRUD.api)'
+[2022-11-29 15:13:50.756 +05:30  INF]  Request finished HTTP/2 DELETE https://localhost:7105/api/Teacher?id=2 - - - 200 - application/json;+charset=utf-8 414.7120ms
+[2022-11-29 15:14:02.332 +05:30  INF]  Request starting HTTP/2 GET https://localhost:7105/api/Teacher - -
+[2022-11-29 15:14:02.333 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:14:02.333 +05:30  INF]  Route matched with {action = "GetAll", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[DapperCRUD.Domain.Models.ApiResponse`1[System.Collections.Generic.List`1[DapperCRUD.Domain.Entities.TeacherInfo]]] GetAll() on controller DapperCRUD.api.Controllers.TeacherController (DapperCRUD.api).
+[2022-11-29 15:14:02.333 +05:30  INF]  TeacherInfo executing...
+[2022-11-29 15:14:02.339 +05:30  INF]  Executing ObjectResult, writing value of type 'DapperCRUD.Domain.Models.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.TeacherInfo, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-11-29 15:14:02.339 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api) in 6.1111ms
+[2022-11-29 15:14:02.339 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAll (DapperCRUD.api)'
+[2022-11-29 15:14:02.340 +05:30  INF]  Request finished HTTP/2 GET https://localhost:7105/api/Teacher - - - 200 - application/json;+charset=utf-8 8.1741ms
