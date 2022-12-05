@@ -1,15 +1,15 @@
-﻿using DapperCRUD.api.Controllers;
-using DapperCRUD.Domain.Entities;
-using DapperCRUD.Domain.Interfaces;
-using FluentAssertions;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Xunit;
-using Moq;
-using DapperUnitTest.Tests.Data;
-
+﻿
 namespace DapperUnitTest.Tests.Unit.Controllers
 {
+    using DapperCRUD.api.Controllers;
+    using DapperCRUD.Domain.Entities;
+    using DapperCRUD.Domain.Interfaces;
+    using FluentAssertions;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+    using Xunit;
+    using Moq;
+    using DapperUnitTest.Tests.Data;
     public class StudentControllerTest : TestHelperStudent
     {
         private readonly Mock<IStudentRepository<Student>> mockRepository;

@@ -1,9 +1,6 @@
 ﻿namespace DapperUnitTest.Tests.Data
 {
     using DapperCRUD.Domain.Entities;
-    using System.Data.SqlClient;
-    using System.Runtime.Serialization;
-
     public class TestHelperStudent
     {
         public List<Student> GetStudent()
