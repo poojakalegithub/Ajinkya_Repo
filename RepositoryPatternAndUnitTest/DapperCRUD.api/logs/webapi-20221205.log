@@ -17,3 +17,79 @@
 [2022-12-05 09:30:03.662 +05:30  INF]  Executed action DapperCRUD.api.Controllers.TeacherController.GetAllTeacher (DapperCRUD.API) in 1292.6583ms
 [2022-12-05 09:30:03.669 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.TeacherController.GetAllTeacher (DapperCRUD.API)'
 [2022-12-05 09:30:03.671 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/api/Teacher - - - 200 - application/json;+charset=utf-8 1442.7773ms
+[2022-12-05 09:45:04.108 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 09:45:04.140 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/index.html - -
+[2022-12-05 09:45:04.154 +05:30  INF]  Hosting environment: Development
+[2022-12-05 09:45:04.155 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-12-05 09:45:04.522 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/index.html - - - 200 - text/html;charset=utf-8 388.3942ms
+[2022-12-05 09:45:04.544 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - -
+[2022-12-05 09:45:04.555 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 7.1985ms
+[2022-12-05 09:45:04.600 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_vs/browserLink - -
+[2022-12-05 09:45:04.657 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.3765ms
+[2022-12-05 09:45:04.751 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - -
+[2022-12-05 09:45:04.945 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.0002ms
+[2022-12-05 09:46:56.774 +05:30  INF]  Request starting HTTP/2 POST https://localhost:44336/api/Student application/json 87
+[2022-12-05 09:46:56.856 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.AddStudent (DapperCRUD.API)'
+[2022-12-05 09:46:56.965 +05:30  INF]  Route matched with {action = "AddStudent", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddStudent(DapperCRUD.Domain.Entities.Student) on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.API).
+[2022-12-05 09:46:57.092 +05:30  INF]  Adding Student...
+[2022-12-05 09:46:58.335 +05:30  INF]  Executing OkObjectResult, writing value of type 'DapperCRUD.Domain.Entities.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-12-05 09:46:58.361 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.AddStudent (DapperCRUD.API) in 1380.6711ms
+[2022-12-05 09:46:58.368 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.AddStudent (DapperCRUD.API)'
+[2022-12-05 09:46:58.370 +05:30  INF]  Request finished HTTP/2 POST https://localhost:44336/api/Student application/json 87 - 200 - application/json;+charset=utf-8 1596.1109ms
+[2022-12-05 09:47:16.720 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/api/Student - -
+[2022-12-05 09:47:16.722 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API)'
+[2022-12-05 09:47:16.730 +05:30  INF]  Route matched with {action = "GetAllStudent", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStudent() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.API).
+[2022-12-05 09:47:16.733 +05:30  INF]  Getting Student details...
+[2022-12-05 09:47:16.955 +05:30  INF]  Executing OkObjectResult, writing value of type 'DapperCRUD.Domain.Entities.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.Student, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-12-05 09:47:16.960 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API) in 229.4415ms
+[2022-12-05 09:47:16.960 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API)'
+[2022-12-05 09:47:16.961 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/api/Student - - - 200 - application/json;+charset=utf-8 240.3005ms
+[2022-12-05 15:41:05.361 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 15:41:05.391 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/index.html - -
+[2022-12-05 15:41:05.408 +05:30  INF]  Hosting environment: Development
+[2022-12-05 15:41:05.409 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-12-05 15:41:05.825 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/index.html - - - 200 - text/html;charset=utf-8 438.2188ms
+[2022-12-05 15:41:05.834 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - -
+[2022-12-05 15:41:05.851 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 14.5098ms
+[2022-12-05 15:41:05.909 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_vs/browserLink - -
+[2022-12-05 15:41:05.971 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.5840ms
+[2022-12-05 15:41:06.063 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - -
+[2022-12-05 15:41:06.218 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.8839ms
+[2022-12-05 15:50:33.068 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 15:50:33.130 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/index.html - -
+[2022-12-05 15:50:33.147 +05:30  INF]  Hosting environment: Development
+[2022-12-05 15:50:33.148 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-12-05 15:50:34.042 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/index.html - - - 200 - text/html;charset=utf-8 918.9926ms
+[2022-12-05 15:50:34.064 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - -
+[2022-12-05 15:50:34.089 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 16.5311ms
+[2022-12-05 15:50:34.127 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_vs/browserLink - -
+[2022-12-05 15:50:34.237 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 110.3409ms
+[2022-12-05 15:50:34.323 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - -
+[2022-12-05 15:50:34.576 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 253.1125ms
+[2022-12-05 15:50:42.764 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/api/Student - -
+[2022-12-05 15:50:42.794 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API)'
+[2022-12-05 15:50:42.872 +05:30  INF]  Route matched with {action = "GetAllStudent", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStudent() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.API).
+[2022-12-05 15:50:42.955 +05:30  INF]  Getting Student details...
+[2022-12-05 15:50:44.203 +05:30  INF]  Executing OkObjectResult, writing value of type 'DapperCRUD.Domain.Entities.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.Student, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-12-05 15:50:44.237 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API) in 1348.6033ms
+[2022-12-05 15:50:44.244 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API)'
+[2022-12-05 15:50:44.246 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/api/Student - - - 200 - application/json;+charset=utf-8 1482.1019ms
+[2022-12-05 17:08:53.894 +05:30  INF]  Application started. Press Ctrl+C to shut down.
+[2022-12-05 17:08:53.916 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/index.html - -
+[2022-12-05 17:08:53.950 +05:30  INF]  Hosting environment: Development
+[2022-12-05 17:08:53.951 +05:30  INF]  Content root path: C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.api\
+[2022-12-05 17:08:54.376 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/index.html - - - 200 - text/html;charset=utf-8 465.5112ms
+[2022-12-05 17:08:54.385 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - -
+[2022-12-05 17:08:54.409 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 20.6617ms
+[2022-12-05 17:08:54.493 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/_vs/browserLink - -
+[2022-12-05 17:08:54.594 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.3971ms
+[2022-12-05 17:08:54.666 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - -
+[2022-12-05 17:08:54.908 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 239.0790ms
+[2022-12-05 17:09:04.197 +05:30  INF]  Request starting HTTP/2 GET https://localhost:44336/api/Student - -
+[2022-12-05 17:09:04.235 +05:30  INF]  Executing endpoint 'DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API)'
+[2022-12-05 17:09:04.315 +05:30  INF]  Route matched with {action = "GetAllStudent", controller = "Student"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllStudent() on controller DapperCRUD.api.Controllers.StudentController (DapperCRUD.API).
+[2022-12-05 17:09:04.378 +05:30  INF]  Getting Student details...
+[2022-12-05 17:09:05.500 +05:30  INF]  Executing OkObjectResult, writing value of type 'DapperCRUD.Domain.Entities.ApiResponse`1[[System.Collections.Generic.List`1[[DapperCRUD.Domain.Entities.Student, DapperCRUD.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-12-05 17:09:05.530 +05:30  INF]  Executed action DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API) in 1198.0217ms
+[2022-12-05 17:09:05.537 +05:30  INF]  Executed endpoint 'DapperCRUD.api.Controllers.StudentController.GetAllStudent (DapperCRUD.API)'
+[2022-12-05 17:09:05.539 +05:30  INF]  Request finished HTTP/2 GET https://localhost:44336/api/Student - - - 200 - application/json;+charset=utf-8 1342.2875ms

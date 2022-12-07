@@ -4,6 +4,9 @@
     using DapperCRUD.Domain.Entities;
     using DapperCRUD.Domain.Interfaces;
     using System.Data.SqlClient;
+    using Microsoft.AspNetCore.Authentication.JwtBearer;
+    using Microsoft.AspNetCore.Authorization;
+    using System.Data;
 
     public class TeacherController : BaseApiController
     {
@@ -17,6 +20,7 @@
         }
 
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Standard, Administrator")]
         public async Task<IActionResult> GetAllTeacher()
         {
             _logger.LogInformation("Getting Teacher details...");
@@ -44,6 +48,7 @@
         }
 
         [HttpGet("{id}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Standard, Administrator")]
         public async Task<IActionResult> GetTeacherById(int id)
         {
             _logger.LogInformation("Getting Teacher details by ID...");
@@ -71,6 +76,7 @@
         }
 
         [HttpPost]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator")]
         public async Task<IActionResult> AddTeacher(Teacher teacher)
         {
             _logger.LogInformation("Adding Teacher...");
@@ -98,6 +104,7 @@
         }
 
         [HttpPut]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator")]
         public async Task<IActionResult> UpdateTeacher(Teacher teacher)
         {
             _logger.LogInformation("Updating Teacher...");
@@ -124,6 +131,7 @@
         }
 
         [HttpDelete]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator")]
         public async Task<IActionResult> DeleteTeacher(int id)
         {
             _logger.LogInformation("Deleting Teacher...");
