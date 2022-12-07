@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DapperCRUD.Engine/1.0.0": {
+        "dependencies": {
+          "DapperCRUD.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DapperCRUD.Engine.dll": {}
+        }
+      },
+      "DapperCRUD.Domain/1.0.0": {
+        "runtime": {
+          "DapperCRUD.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DapperCRUD.Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DapperCRUD.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

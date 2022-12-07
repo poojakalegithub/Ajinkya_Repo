@@ -1,0 +1,15 @@
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\bin\Debug\net6.0\DapperCRUD.Engine.deps.json
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\bin\Debug\net6.0\DapperCRUD.Engine.dll
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\bin\Debug\net6.0\DapperCRUD.Engine.pdb
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\bin\Debug\net6.0\DapperCRUD.Domain.dll
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\bin\Debug\net6.0\DapperCRUD.Domain.pdb
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.csproj.AssemblyReference.cache
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.AssemblyInfoInputs.cache
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.AssemblyInfo.cs
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.csproj.CoreCompileInputs.cache
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.csproj.CopyComplete
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.dll
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\refint\DapperCRUD.Engine.dll
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\DapperCRUD.Engine.pdb
+C:\Users\Ajinkya.Sonwane\source\repos\DapperCRUD.Engine\obj\Debug\net6.0\ref\DapperCRUD.Engine.dll
